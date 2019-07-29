@@ -12,8 +12,8 @@
 		9D83C77522EF4B6E00CD4E3C /* CustomPopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D83C77222EF4B6E00CD4E3C /* CustomPopupController.swift */; };
 		9D83C77622EF4B6E00CD4E3C /* CustomPopupProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D83C77322EF4B6E00CD4E3C /* CustomPopupProtocol.swift */; };
 		9D83C77722EF4B6E00CD4E3C /* CustomPopupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D83C77422EF4B6E00CD4E3C /* CustomPopupController.xib */; };
-		9D83C77A22EF4CDF00CD4E3C /* PopupListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D83C77922EF4CDF00CD4E3C /* PopupListController.swift */; };
-		9D83C77C22EF4DA500CD4E3C /* PopupListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D83C77B22EF4DA500CD4E3C /* PopupListController.xib */; };
+		9D83C77A22EF4CDF00CD4E3C /* LinesPopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D83C77922EF4CDF00CD4E3C /* LinesPopupController.swift */; };
+		9D83C77C22EF4DA500CD4E3C /* LinesPopupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D83C77B22EF4DA500CD4E3C /* LinesPopupController.xib */; };
 		9DFDEEC622EF2235002E1585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDEEC522EF2235002E1585 /* AppDelegate.swift */; };
 		9DFDEEC822EF2235002E1585 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDEEC722EF2235002E1585 /* HomeViewController.swift */; };
 		9DFDEECB22EF2235002E1585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFDEEC922EF2235002E1585 /* Main.storyboard */; };
@@ -46,8 +46,8 @@
 		9D83C77222EF4B6E00CD4E3C /* CustomPopupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPopupController.swift; sourceTree = "<group>"; };
 		9D83C77322EF4B6E00CD4E3C /* CustomPopupProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPopupProtocol.swift; sourceTree = "<group>"; };
 		9D83C77422EF4B6E00CD4E3C /* CustomPopupController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPopupController.xib; sourceTree = "<group>"; };
-		9D83C77922EF4CDF00CD4E3C /* PopupListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupListController.swift; sourceTree = "<group>"; };
-		9D83C77B22EF4DA500CD4E3C /* PopupListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupListController.xib; sourceTree = "<group>"; };
+		9D83C77922EF4CDF00CD4E3C /* LinesPopupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesPopupController.swift; sourceTree = "<group>"; };
+		9D83C77B22EF4DA500CD4E3C /* LinesPopupController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LinesPopupController.xib; sourceTree = "<group>"; };
 		9DFDEEC222EF2235002E1585 /* Invenio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Invenio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFDEEC522EF2235002E1585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DFDEEC722EF2235002E1585 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -120,8 +120,8 @@
 		9D83C77822EF4CC200CD4E3C /* PopupList */ = {
 			isa = PBXGroup;
 			children = (
-				9D83C77922EF4CDF00CD4E3C /* PopupListController.swift */,
-				9D83C77B22EF4DA500CD4E3C /* PopupListController.xib */,
+				9D83C77922EF4CDF00CD4E3C /* LinesPopupController.swift */,
+				9D83C77B22EF4DA500CD4E3C /* LinesPopupController.xib */,
 			);
 			path = PopupList;
 			sourceTree = "<group>";
@@ -293,7 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D83C77C22EF4DA500CD4E3C /* PopupListController.xib in Resources */,
+				9D83C77C22EF4DA500CD4E3C /* LinesPopupController.xib in Resources */,
 				9DFDEED022EF2238002E1585 /* LaunchScreen.storyboard in Resources */,
 				9DFDEECD22EF2238002E1585 /* Assets.xcassets in Resources */,
 				9DFDEECB22EF2235002E1585 /* Main.storyboard in Resources */,
@@ -351,7 +351,7 @@
 				9DFDEEC822EF2235002E1585 /* HomeViewController.swift in Sources */,
 				9D83C77622EF4B6E00CD4E3C /* CustomPopupProtocol.swift in Sources */,
 				9DFDEEC622EF2235002E1585 /* AppDelegate.swift in Sources */,
-				9D83C77A22EF4CDF00CD4E3C /* PopupListController.swift in Sources */,
+				9D83C77A22EF4CDF00CD4E3C /* LinesPopupController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

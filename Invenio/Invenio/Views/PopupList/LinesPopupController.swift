@@ -7,8 +7,13 @@
 //
 
 import UIKit
+import OlhoVivoSDK
 
-class PopupListController: NSObject, CustomPopupProtocol {
+protocol LinesPopupProtocol: CustomPopupProtocol {
+    func show(lines: [OVLine], dismissHandler: DidFinishDismissingHandler?)
+}
+
+class LinesPopupController: NSObject, LinesPopupProtocol {
 
     var dismissOnTouchOutside: Bool = true
     var controller: CustomPopupController?
@@ -19,7 +24,7 @@ class PopupListController: NSObject, CustomPopupProtocol {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var tableViewContainerHeight: NSLayoutConstraint!
 
-    var buttonTitle: String?
+    var linesDataSource: [OVLine]?
     var finishHandler: DidFinishDismissingHandler?
 
     required override init() {}
@@ -27,6 +32,11 @@ class PopupListController: NSObject, CustomPopupProtocol {
     @IBAction private func aceptAndDismiss(_ sender: Any) {
         finishHandler?()
         self.dismiss(animated: true)
+    }
+
+    func show(lines: [OVLine], dismissHandler: DidFinishDismissingHandler?) {
+        linesDataSource = lines
+        self.show(animated: true, handler: dismissHandler)
     }
 
     public func show(animated: Bool, handler: DidFinishDismissingHandler?) {
@@ -45,18 +55,24 @@ class PopupListController: NSObject, CustomPopupProtocol {
 
 }
 
-extension PopupListController: UITableViewDelegate {
+extension LinesPopupController: UITableViewDelegate {
 
 }
 
-extension PopupListController: UITableViewDataSource {
+extension LinesPopupController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 8
+        return linesDataSource?.count ?? 0
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+
+        guard let lines = linesDataSource else { return UITableViewCell() }
+
         let cell = UITableViewCell(style: .default, reuseIdentifier: "identi")
-        cell.textLabel?.text = "dhgfsahjdha"
+        let line = lines[indexPath.row]
+
+        let name = line.direction == .inbound ? line.inboundName : line.outboundName
+        cell.textLabel?.text = lines[indexPath.row].lineNumber + " - " + name
         return cell
     }
 

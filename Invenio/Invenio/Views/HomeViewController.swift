@@ -39,9 +39,8 @@ class HomeViewController: UIViewController {
                 return
             }
 
-            let listPopup = PopupListController(nibName: "PopupListController", bundle: Bundle.main)
-            listPopup.show(animated: true, handler: nil)
-            print(lines)
+            let listPopup = LinesPopupController(nibName: "LinesPopupController", bundle: Bundle.main)
+            listPopup.show(lines: lines, dismissHandler: nil)
 
         }
     }
