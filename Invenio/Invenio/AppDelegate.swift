@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import OlhoVivoSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    static let olhoVivo = OlhoVivo(token: "96d11f3ce4a9a5d10cdeaf397b126a8aac36ac6eb3fc7eb53a47a8bcab2de1a8")
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

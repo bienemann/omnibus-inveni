@@ -25,8 +25,22 @@ class HomeViewController: UIViewController {
     }
 
     @IBAction func searchButtonTapped(_ sender: Any) {
+
         if searchField.isFirstResponder {
             searchField.resignFirstResponder()
+        }
+
+        guard let text = searchField.text else { return }
+
+        AppDelegate.olhoVivo.lines(text) { (lines, error) in
+
+            guard let lines = lines, error == nil else {
+                print(error)
+                return
+            }
+
+            print(lines)
+
         }
     }
 
