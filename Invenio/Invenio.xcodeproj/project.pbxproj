@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DFDEEC622EF2235002E1585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDEEC522EF2235002E1585 /* AppDelegate.swift */; };
+		9DFDEEC822EF2235002E1585 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDEEC722EF2235002E1585 /* HomeViewController.swift */; };
+		9DFDEECB22EF2235002E1585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFDEEC922EF2235002E1585 /* Main.storyboard */; };
+		9DFDEECD22EF2238002E1585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFDEECC22EF2238002E1585 /* Assets.xcassets */; };
+		9DFDEED022EF2238002E1585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFDEECE22EF2238002E1585 /* LaunchScreen.storyboard */; };
+		9DFDEEDB22EF2238002E1585 /* InvenioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDEEDA22EF2238002E1585 /* InvenioTests.swift */; };
+		9DFDEEE622EF2238002E1585 /* InvenioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDEEE522EF2238002E1585 /* InvenioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DFDEED722EF2238002E1585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DFDEEBA22EF2235002E1585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DFDEEC122EF2235002E1585;
+			remoteInfo = Invenio;
+		};
+		9DFDEEE222EF2238002E1585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DFDEEBA22EF2235002E1585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DFDEEC122EF2235002E1585;
+			remoteInfo = Invenio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DFDEEC222EF2235002E1585 /* Invenio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Invenio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFDEEC522EF2235002E1585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DFDEEC722EF2235002E1585 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9DFDEECA22EF2235002E1585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DFDEECC22EF2238002E1585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DFDEECF22EF2238002E1585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DFDEED122EF2238002E1585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DFDEED622EF2238002E1585 /* InvenioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvenioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFDEEDA22EF2238002E1585 /* InvenioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvenioTests.swift; sourceTree = "<group>"; };
+		9DFDEEDC22EF2238002E1585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DFDEEE122EF2238002E1585 /* InvenioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvenioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFDEEE522EF2238002E1585 /* InvenioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvenioUITests.swift; sourceTree = "<group>"; };
+		9DFDEEE722EF2238002E1585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DFDEEBF22EF2235002E1585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFDEED322EF2238002E1585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFDEEDE22EF2238002E1585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DFDEEB922EF2235002E1585 = {
+			isa = PBXGroup;
+			children = (
+				9DFDEEC422EF2235002E1585 /* Invenio */,
+				9DFDEED922EF2238002E1585 /* InvenioTests */,
+				9DFDEEE422EF2238002E1585 /* InvenioUITests */,
+				9DFDEEC322EF2235002E1585 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DFDEEC322EF2235002E1585 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DFDEEC222EF2235002E1585 /* Invenio.app */,
+				9DFDEED622EF2238002E1585 /* InvenioTests.xctest */,
+				9DFDEEE122EF2238002E1585 /* InvenioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DFDEEC422EF2235002E1585 /* Invenio */ = {
+			isa = PBXGroup;
+			children = (
+				9DFDEEF322EF2256002E1585 /* Views */,
+				9DFDEEC522EF2235002E1585 /* AppDelegate.swift */,
+				9DFDEEC922EF2235002E1585 /* Main.storyboard */,
+				9DFDEECC22EF2238002E1585 /* Assets.xcassets */,
+				9DFDEECE22EF2238002E1585 /* LaunchScreen.storyboard */,
+				9DFDEED122EF2238002E1585 /* Info.plist */,
+			);
+			path = Invenio;
+			sourceTree = "<group>";
+		};
+		9DFDEED922EF2238002E1585 /* InvenioTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DFDEEDA22EF2238002E1585 /* InvenioTests.swift */,
+				9DFDEEDC22EF2238002E1585 /* Info.plist */,
+			);
+			path = InvenioTests;
+			sourceTree = "<group>";
+		};
+		9DFDEEE422EF2238002E1585 /* InvenioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DFDEEE522EF2238002E1585 /* InvenioUITests.swift */,
+				9DFDEEE722EF2238002E1585 /* Info.plist */,
+			);
+			path = InvenioUITests;
+			sourceTree = "<group>";
+		};
+		9DFDEEF322EF2256002E1585 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9DFDEEC722EF2235002E1585 /* HomeViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DFDEEC122EF2235002E1585 /* Invenio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFDEEEA22EF2238002E1585 /* Build configuration list for PBXNativeTarget "Invenio" */;
+			buildPhases = (
+				9DFDEEBE22EF2235002E1585 /* Sources */,
+				9DFDEEBF22EF2235002E1585 /* Frameworks */,
+				9DFDEEC022EF2235002E1585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Invenio;
+			productName = Invenio;
+			productReference = 9DFDEEC222EF2235002E1585 /* Invenio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DFDEED522EF2238002E1585 /* InvenioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFDEEED22EF2238002E1585 /* Build configuration list for PBXNativeTarget "InvenioTests" */;
+			buildPhases = (
+				9DFDEED222EF2238002E1585 /* Sources */,
+				9DFDEED322EF2238002E1585 /* Frameworks */,
+				9DFDEED422EF2238002E1585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DFDEED822EF2238002E1585 /* PBXTargetDependency */,
+			);
+			name = InvenioTests;
+			productName = InvenioTests;
+			productReference = 9DFDEED622EF2238002E1585 /* InvenioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DFDEEE022EF2238002E1585 /* InvenioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFDEEF022EF2238002E1585 /* Build configuration list for PBXNativeTarget "InvenioUITests" */;
+			buildPhases = (
+				9DFDEEDD22EF2238002E1585 /* Sources */,
+				9DFDEEDE22EF2238002E1585 /* Frameworks */,
+				9DFDEEDF22EF2238002E1585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DFDEEE322EF2238002E1585 /* PBXTargetDependency */,
+			);
+			name = InvenioUITests;
+			productName = InvenioUITests;
+			productReference = 9DFDEEE122EF2238002E1585 /* InvenioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DFDEEBA22EF2235002E1585 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Allan Martins";
+				TargetAttributes = {
+					9DFDEEC122EF2235002E1585 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					9DFDEED522EF2238002E1585 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 9DFDEEC122EF2235002E1585;
+					};
+					9DFDEEE022EF2238002E1585 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 9DFDEEC122EF2235002E1585;
+					};
+				};
+			};
+			buildConfigurationList = 9DFDEEBD22EF2235002E1585 /* Build configuration list for PBXProject "Invenio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DFDEEB922EF2235002E1585;
+			productRefGroup = 9DFDEEC322EF2235002E1585 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DFDEEC122EF2235002E1585 /* Invenio */,
+				9DFDEED522EF2238002E1585 /* InvenioTests */,
+				9DFDEEE022EF2238002E1585 /* InvenioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DFDEEC022EF2235002E1585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFDEED022EF2238002E1585 /* LaunchScreen.storyboard in Resources */,
+				9DFDEECD22EF2238002E1585 /* Assets.xcassets in Resources */,
+				9DFDEECB22EF2235002E1585 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFDEED422EF2238002E1585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFDEEDF22EF2238002E1585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DFDEEBE22EF2235002E1585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFDEEC822EF2235002E1585 /* HomeViewController.swift in Sources */,
+				9DFDEEC622EF2235002E1585 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFDEED222EF2238002E1585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFDEEDB22EF2238002E1585 /* InvenioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFDEEDD22EF2238002E1585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFDEEE622EF2238002E1585 /* InvenioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DFDEED822EF2238002E1585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DFDEEC122EF2235002E1585 /* Invenio */;
+			targetProxy = 9DFDEED722EF2238002E1585 /* PBXContainerItemProxy */;
+		};
+		9DFDEEE322EF2238002E1585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DFDEEC122EF2235002E1585 /* Invenio */;
+			targetProxy = 9DFDEEE222EF2238002E1585 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DFDEEC922EF2235002E1585 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFDEECA22EF2235002E1585 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DFDEECE22EF2238002E1585 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFDEECF22EF2238002E1585 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DFDEEE822EF2238002E1585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DFDEEE922EF2238002E1585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DFDEEEB22EF2238002E1585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8MYP56C5V;
+				INFOPLIST_FILE = Invenio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.bienemann.Invenio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9DFDEEEC22EF2238002E1585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8MYP56C5V;
+				INFOPLIST_FILE = Invenio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.bienemann.Invenio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9DFDEEEE22EF2238002E1585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8MYP56C5V;
+				INFOPLIST_FILE = InvenioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.bienemann.InvenioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Invenio.app/Invenio";
+			};
+			name = Debug;
+		};
+		9DFDEEEF22EF2238002E1585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8MYP56C5V;
+				INFOPLIST_FILE = InvenioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.bienemann.InvenioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Invenio.app/Invenio";
+			};
+			name = Release;
+		};
+		9DFDEEF122EF2238002E1585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8MYP56C5V;
+				INFOPLIST_FILE = InvenioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.bienemann.InvenioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Invenio;
+			};
+			name = Debug;
+		};
+		9DFDEEF222EF2238002E1585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8MYP56C5V;
+				INFOPLIST_FILE = InvenioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.bienemann.InvenioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Invenio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DFDEEBD22EF2235002E1585 /* Build configuration list for PBXProject "Invenio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFDEEE822EF2238002E1585 /* Debug */,
+				9DFDEEE922EF2238002E1585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DFDEEEA22EF2238002E1585 /* Build configuration list for PBXNativeTarget "Invenio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFDEEEB22EF2238002E1585 /* Debug */,
+				9DFDEEEC22EF2238002E1585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DFDEEED22EF2238002E1585 /* Build configuration list for PBXNativeTarget "InvenioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFDEEEE22EF2238002E1585 /* Debug */,
+				9DFDEEEF22EF2238002E1585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DFDEEF022EF2238002E1585 /* Build configuration list for PBXNativeTarget "InvenioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFDEEF122EF2238002E1585 /* Debug */,
+				9DFDEEF222EF2238002E1585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DFDEEBA22EF2235002E1585 /* Project object */;
+}
